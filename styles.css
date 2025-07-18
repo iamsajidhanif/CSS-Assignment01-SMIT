@@ -1,0 +1,343 @@
+@font-face {
+    font-family: ;
+    src: url();
+}
+
+
+/* Lecture #01: */
+/* Chapter No. 10: Introducing CSS */
+
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: papayawhip;
+}
+
+p {
+    color: blueviolet;
+    border: solid 3px blue;
+}
+
+
+
+h1,h2,h3 {
+    color: chocolate;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: cornflowerblue;
+}
+
+/* Lecture #02: */
+/* Chapter No. 11:  Color */
+
+.primary {
+    color: blue;
+}
+
+body {
+    background-color: #26A69A;
+}
+
+.secondary {
+    color: rgb(255, 255, 0);
+    background-color: rgba(128, 0, 128, 0.726);
+    opacity: 0.5;
+    color: hsl(hue, saturation, lightness);
+}
+
+/* Chapter No. 12:  Text */
+/* h1 {
+    font-family: Alkatra;
+    font-weight: 100;
+    text-decoration: blink;
+}
+
+p {
+    font-family: Roboto;
+    line-height: 25px;
+    font-weight: 400;
+    font-stretch:condensed;
+    font-size: 18pt;
+} */
+
+
+
+/* Chapter No. 13: Boxes */
+/* BOX DIMENSION */
+/* height & width */
+
+/* .box {
+    height: 500px;
+    width: 600px;
+    background-color: #bbbbaa;
+}
+
+p {
+    height: 75%;
+    width: 75%;
+    background-color: #0088dd;
+} */
+
+
+/* OVERFLOWING CONTENT*/
+/* Overflowing */
+
+/* p.one {
+    overflow: hidden;
+}
+p.two {
+    overflow: scroll;
+} */
+
+/* BORDER WIDTH */
+/* Border Width */
+
+/* p.one {
+    border-width: 3px;
+    border-style:solid;
+    border-color: blue;
+} */
+
+/* Border Width - Shorthand */
+
+/* p.two {
+    border: 3px solid #f00;
+} */
+
+/* Border Width - Clockwise */
+/* The values here appear in clockwise order: top, right, bottom, left. */
+
+/* p.three {
+    border: 3px blueviolet solid;
+    border-width: 5px 10px 15px 20px;
+} */
+
+/* BORDER STYLE */
+/* Border Style */
+/* The values of Border Style works withoud Border-width. */
+/* p.one {
+    border-style: solid;
+}
+p.two {
+    border-style: dotted;
+}
+p.three {
+    border-style: dashed;
+}
+p.four {
+    border-style: double;
+}
+p.five {
+    border-style: groove;
+}
+p.six {
+    border-style: ridge;
+}
+p.seven {
+    border-style: inset;
+}
+p.eight {
+    border-style: outset;
+} */
+
+/* BORDER COLOR */
+/* Border Color */
+/* p.one {
+    border-color: #0088dd;
+    border-style: solid;
+    border-width: 3px;
+    text-align: center;
+}
+
+p.two {
+    border-color: #000 #f00 #0f0 #00f;
+    border-style: solid;
+    border-width: 3px;
+    width: fit-content;
+} */
+
+/* PADDING */
+/* Padding */
+
+/* p {
+    width: 275px;
+    border: 2px solid #0088dd;
+}
+
+p.para2 {
+    padding: 10px;
+}
+
+p.para3 {
+    padding: 10px 20px 30px 40px;
+} */
+
+/* CENTERING CONTEN */
+/* Centering Content */
+
+/* body {
+    text-align: center;
+}
+
+p {
+    width: 300px;
+    padding: 50px;
+    border: 20px solid #0088dd;
+}
+
+p.example {
+    margin: 10px auto 10px
+} */
+
+/* BOX SHADOWS */
+/* Box Shadows */
+
+/* p.one {
+    width: 300px;
+    background-color: lightblue;
+    box-shadow: -5px -5px #777777;
+}
+
+p.two {
+    width: 300px;
+    background-color: lightblue;
+    box-shadow: 5px 5px 5px #777777;
+}
+
+p.three {
+    width: 300px;
+    background-color: lightblue;
+    box-shadow: 5px 5px 5px 5px #777777;
+}
+p.four {
+    width: 300px;
+    background-color: lightblue;
+    box-shadow: 0 0 10px #777777;
+}
+
+p.five {
+    width: 300px;
+    background-color: lightblue;
+    box-shadow: inset 0 0 10px #777777;
+} */
+
+/* BORDER RADIUS */
+/* Border Radius */
+
+/* p {
+    border: 5px solid #cccccc;
+    padding: 20px;
+    width: 275px;
+    height: 275px;
+    text-align: center;
+    border-radius: 50px;
+} */
+
+
+/* Chapter No. 13: Boxes */
+/* Lecture No. 04 */
+
+/* CHANGE INLINE/ BLOCK */
+/* display */
+
+/* li {
+    display: inline-block;
+    height: 100px;
+    
+    color: white;
+    background-color: black;
+    margin-right: 10px;
+}
+li.coming-soon {
+    display: none;
+} */
+
+
+/* HIDING BOXES */
+/* Visibility */
+
+/* li {
+    display: inline;
+    height: 100px;
+
+    color: white;
+    background-color: black;
+    margin-right: 10px;
+}
+
+li.coming-soon {
+    visibility:hidden;
+} */
+
+/* Chapter No. 14: Lists, Tables & Forms */
+/* TABLE PROPERTIES */
+
+/* body {
+    font-family: Arial, Verdana, sans-serif;
+    color: #111111;
+} */
+
+/* table {
+    width: 600px;
+}
+
+th, td {
+    padding: 7px 10px 10px 10px;
+}
+
+th {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 90%;
+    border-bottom: 2px solid #111111;
+    border-top: 1px solid #999;
+    text-align: left;
+}
+
+tr.even {
+    background-color: #efefef;
+}
+
+tr:hover {
+    background-color: #c3e6e5;
+}
+
+.money {
+    text-align: right;
+} */
+
+/* FOCUS */
+/* The :focus pseudo-class is used to change the background color of the text input when it is being used. */
+/* input:focus {
+    background-color: rgba(128, 128, 128, 0.301);
+    border: 3px solid #0697a1;
+} */
+
+/* FLEXBOX */
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box-1 {
+    width: 25%;
+    flex: 2;
+    order: 1;
+    border: 1px solid red;
+}
+
+.box-2 {
+    width: 25%;
+    flex: 2;
+    order: 2;
+    border: 1px solid red;
+}
+
+.box-3 {
+    width: 25%;
+    flex: 1;
+    order: 3;
+    border: 1px solid red;
+}
